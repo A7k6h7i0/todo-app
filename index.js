@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-      origin: 'https://todo-frontend-akhila-gantas-projects.vercel.app/'
+      origin: 'https://todo-frontend-qua3.onrender.com/'
     }));
 app.use(express.json());
 
